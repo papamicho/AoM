@@ -14,8 +14,6 @@ from spritesheet_functions import SpriteSheet
 import bullet
  
 class Manolito(pygame.sprite.Sprite):
-    """ This class represents the bar at the bottom that the player
-    controls. """
     def __init__(self):
         # Call the parent's constructor
         super().__init__()
